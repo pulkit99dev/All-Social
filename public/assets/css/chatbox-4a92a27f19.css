@@ -1,0 +1,14 @@
+#chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 30%;
+  position: fixed;
+  top: 100%;
+  left: 100%;
+  border: 2px solid black; }
+  #chat-container #chat-text-box {
+    width: 70%;
+    height: 10%;
+    font-size: 1rem;
+    font-family: sans-serif; }

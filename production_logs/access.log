@@ -1,0 +1,79 @@
+::1 - - [25/Jun/2020:13:41:27 +0000] "GET / HTTP/1.1" 200 3197 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [25/Jun/2020:13:41:29 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [26/Jun/2020:13:01:29 +0000] "GET / HTTP/1.1" 500 2520 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [26/Jun/2020:13:01:30 +0000] "GET / HTTP/1.1" 500 2520 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+[0mGET / [32m200[0m 1042.829 ms - 5165[0m
+[0mGET /favicon.ico [33m404[0m 8.697 ms - 150[0m
+::1 - - [26/Jun/2020:13:15:24 +0000] "GET / HTTP/1.1" 200 3275 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [26/Jun/2020:13:15:24 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [26/Jun/2020:13:15:24 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [26/Jun/2020:13:15:24 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+[0mGET / [32m200[0m 176.614 ms - 5162[0m
+::1 - - [26/Jun/2020:13:33:02 +0000] "GET / HTTP/1.1" 200 3297 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [26/Jun/2020:13:33:02 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [26/Jun/2020:13:33:02 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+[0mGET / [32m200[0m 125.414 ms - 11710[0m
+[0mGET /users/profile [33m404[0m 9.005 ms - 152[0m
+[0mGET / [32m200[0m 72.482 ms - 5617[0m
+[0mGET /users/sign-in [32m200[0m 13.437 ms - 2305[0m
+[0mGET /users/css/layouts.css [33m404[0m 11.792 ms - 160[0m
+[0mGET /users/css/footer.css [33m404[0m 15.733 ms - 159[0m
+[0mGET /users/css/layouts.css [33m404[0m 3.254 ms - 160[0m
+[0mGET /users/css/header.css [33m404[0m 3.733 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 4.635 ms - 159[0m
+[0mPOST /users/create-session [36m302[0m 8.542 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 4.456 ms - 2572[0m
+[0mGET /users/css/layouts.css [33m404[0m 5.632 ms - 160[0m
+[0mGET /users/css/header.css [33m404[0m 5.621 ms - 159[0m
+[0mGET /users/auth/google [36m302[0m 5.584 ms - 0[0m
+[0mGET /users/auth/google/callback?code=4%2F0AY0e-g7Eogp6_aAOGRlBYcx3hta1TTQo5XtWyg03EfQbAeX0OoRRKTlJGEZd2zYadHK3Fw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent [36m302[0m 659.317 ms - 46[0m
+[0mGET / [32m200[0m 26.996 ms - 8447[0m
+[0mGET / [32m200[0m 70.159 ms - 5619[0m
+[0mGET / [36m304[0m 22.237 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 12.733 ms - 2305[0m
+[0mGET /users/css/header.css [33m404[0m 7.254 ms - 159[0m
+[0mGET /users/css/layouts.css [33m404[0m 5.229 ms - 160[0m
+[0mGET /users/css/footer.css [33m404[0m 6.393 ms - 159[0m
+[0mGET / [36m304[0m 26.008 ms - -[0m
+[0mGET / [36m304[0m 16.518 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.553 ms - -[0m
+[0mGET /users/css/layouts.css [33m404[0m 3.141 ms - 160[0m
+[0mGET /users/css/footer.css [33m404[0m 10.465 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 9.603 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 3.702 ms - -[0m
+[0mGET /users/css/header.css [33m404[0m 6.436 ms - 159[0m
+[0mGET /users/css/layouts.css [33m404[0m 7.218 ms - 160[0m
+[0mGET /users/css/footer.css [33m404[0m 9.655 ms - 159[0m
+[0mGET /users/auth/google [36m302[0m 8.171 ms - 0[0m
+[0mGET /users/auth/google/callback?code=4%2F0AY0e-g6Sa2DnYBA2ASo7Dqm5K1cakx7CsiVD37ZZuYIj8m1iSq3_ThA8zRNEq6qk93uDfA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent [36m302[0m 1226.249 ms - 46[0m
+[0mGET / [32m200[0m 36.374 ms - 8449[0m
+[0mGET / [32m200[0m 54.363 ms - 8183[0m
+[0mGET / [36m304[0m 32.897 ms - -[0m
+[0mGET /users/sign-out [36m302[0m 13.915 ms - 46[0m
+[0mGET / [32m200[0m 24.726 ms - 5883[0m
+[0mGET /users/sign-in [36m304[0m 5.745 ms - -[0m
+[0mGET /users/css/layouts.css [33m404[0m 6.143 ms - 160[0m
+[0mGET /users/css/header.css [33m404[0m 16.371 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 13.300 ms - 159[0m
+[0mPOST /users/create-session [36m302[0m 4.018 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 7.325 ms - 2572[0m
+[0mGET /users/css/layouts.css [33m404[0m 5.835 ms - 160[0m
+[0mGET /users/css/footer.css [33m404[0m 12.235 ms - 159[0m
+[0mGET / [32m200[0m 21.210 ms - 5619[0m
+[0mGET /users/sign-in [32m200[0m 5.025 ms - 2305[0m
+[0mGET /users/css/layouts.css [33m404[0m 7.168 ms - 160[0m
+[0mGET /users/css/header.css [33m404[0m 8.568 ms - 159[0m
+[0mGET /users/auth/google [36m302[0m 6.115 ms - 0[0m
+[0mGET /users/auth/google/callback?code=4%2F0AY0e-g7YJIXUM9CUpPlsbRHy1Mwxz51nuBbp9WYnAbHbHa5pPY-BZnAvn40U9ZusY4Yymg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent [36m302[0m 1031.075 ms - 46[0m
+[0mGET / [32m200[0m 26.602 ms - 8449[0m
+[0mGET / [32m200[0m 55.320 ms - 8186[0m
+[0mGET / [36m304[0m 25.378 ms - -[0m
+[0mGET / [32m200[0m 31.697 ms - 8189[0m
+[0mGET / [32m200[0m 29.180 ms - 8312[0m
+[0mGET / [36m304[0m 21.573 ms - -[0m
+[0mGET / [32m200[0m 27.693 ms - 8194[0m
+[0mGET / [32m200[0m 29.704 ms - 8305[0m
+[0mGET / [32m200[0m 25.758 ms - 8199[0m
+[0mGET / [36m304[0m 19.591 ms - -[0m
+[0mGET / [36m304[0m 22.530 ms - -[0m
+[0mGET / [36m304[0m 16.159 ms - -[0m
