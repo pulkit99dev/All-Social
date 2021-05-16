@@ -77,3 +77,11 @@
 [0mGET / [36m304[0m 19.591 ms - -[0m
 [0mGET / [36m304[0m 22.530 ms - -[0m
 [0mGET / [36m304[0m 16.159 ms - -[0m
+[0mGET / [32m200[0m 83.030 ms - 7382[0m
+[0mGET /users/sign-in [32m200[0m 10.786 ms - 2321[0m
+[0mGET /users/css/layouts.css [33m404[0m 8.917 ms - 160[0m
+[0mGET /users/css/header.css [33m404[0m 9.121 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 12.378 ms - 159[0m
+[0mGET /users/auth/google [36m302[0m 5.500 ms - 0[0m
+[0mGET /users/auth/google [36m302[0m 18.109 ms - 0[0m
+[0mGET /user/auth/google/callback?code=4%2F0AY0e-g6VCQZoy9z0QyJnnxiaPnl8wkvzacEdha8kn-5hnCWM0WeQFOFV5mzXDqASjL51fQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent [33m404[0m 5.108 ms - 164[0m

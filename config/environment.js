@@ -13,7 +13,7 @@ const accessLogStream = rfs.createStream('access.log',{
 const development = {
     name:'development',
     asset_path:'./assets',
-    session_cookie_key : 'blahsomething',
+    session_cookie_key : 'pfbE374PM3DRBDjp1JE1fF0Pqz9kIskz',
     db :'codeial_development',
     smtp : {
         service:'gmail',
