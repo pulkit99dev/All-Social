@@ -69,8 +69,6 @@ class PostComments{
                                 <small>
                                     <a class="delete-comment-button" href="/comments/destroy/${ comment._id }"><i style="color: whitesmoke;" class="far fa-trash-alt"></i></a>
                                 </small>
-                            
-            
                             <br>
                             <small>
                                 ${comment.user.name}

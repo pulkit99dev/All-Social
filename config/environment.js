@@ -23,7 +23,7 @@ const development = {
     auth: {
       /// here users mail id from which we need to send the mail
       user: "pulkitnagpal987654321@gmail.com", //users email id
-      pass: "991@technocrat", // for now password is hide use when required
+      pass: "199@TechStudent", // for now password is hide use when required
     },
   },
   google_client_ID:
