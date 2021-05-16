@@ -823,3 +823,8 @@
 [0mGET /path/to/font-awesome/css/font-awesome.min.css [33m404[0m 5.833 ms - 184[0m
 [0mPOST /comments/create [32m200[0m 21.291 ms - 340[0m
 [0mGET /comments/destroy/60a1252f55b4c605fa080ec9 [32m200[0m 10.958 ms - 75[0m
+[0mGET / [32m200[0m 89.674 ms - 12251[0m
+[0mGET /path/to/font-awesome/css/font-awesome.min.css [33m404[0m 15.060 ms - 184[0m
+[0mGET /path/to/font-awesome/css/font-awesome.min.css [33m404[0m 10.447 ms - 184[0m
+[0mGET / [32m200[0m 66.264 ms - 12254[0m
+[0mGET /path/to/font-awesome/css/font-awesome.min.css [33m404[0m 14.068 ms - 184[0m
