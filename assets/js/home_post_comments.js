@@ -63,11 +63,14 @@ class PostComments{
         return $(`<li id="comment-${ comment._id }">
                         <p>
                             
-                            <small>
-                                <a class="delete-comment-button" href="/comments/destroy/${comment._id}">X</a>
-                            </small>
                             
-                            ${comment.content}
+
+                            ${ comment.content } &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <small>
+                                    <a class="delete-comment-button" href="/comments/destroy/${ comment._id }"><i style="color: whitesmoke;" class="far fa-trash-alt"></i></a>
+                                </small>
+                            
+            
                             <br>
                             <small>
                                 ${comment.user.name}
@@ -75,7 +78,7 @@ class PostComments{
                             <small>
                             
                                 <a class="toggle-like-button" data-likes="0" href="/likes/toggle/?id=${comment._id}&type=Comment">
-                                    0 Likes
+                                    0 <i style="color: whitesmoke;" class="far fa-heart"></i>
                                 </a>
                             
                             </small>

@@ -41,14 +41,17 @@
     // method to create a post in DOM
     let newPostDom = function(post){
         // CHANGE :: show the count of zero likes on this post
-        return $(`<li id="post-${post._id}">
+        return $(`
+            <li id="post-${ post._id }" 
+            style="color:greenyellow; font-size: larger; font-weight: bolder;">
                     <p>
                         
-                        <small>
-                            <a class="delete-post-button"  href="/posts/destroy/${ post._id }">X</a>
+
+                    </small>
+                    ${ post.content } &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <small>
+                            <a class="delete-post-button"  href="/posts/destroy/${ post._id }"><i style="color: cornsilk; height: 10px; width: 10px;" class="far fa-trash-alt"></i></a>
                         </small>
-                       
-                        ${ post.content }
                         <br>
                         <small>
                         ${ post.user.name }

@@ -1,11 +1,13 @@
-<li id="post-<%= post._id %>">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+<li style="color:greenyellow; font-size: larger; font-weight: bolder; border: 3px solid white; margin: 20px; padding: 30px;" id="post-<%= post._id %>">
     <p>
-        <% if (locals.user && locals.user.id == post.user.id){ %>
-        <small>
-            <a class="delete-post-button"  href="/posts/destroy/<%= post.id %>">X</a>
-        </small>
-        <% } %>
-        <%= post.content %>
+        
+        <%= post.content %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <% if (locals.user && locals.user.id == post.user.id){ %>
+            <small>
+                <a class="delete-post-button"  href="/posts/destroy/<%= post.id %>"><i style="color: cornsilk; height: 10px; width: 10px;" class="far fa-trash-alt"></i></a>
+            </small>
+            <% } %>
         <br>
         <small>
             <%= post.user.name %>
@@ -14,13 +16,13 @@
         <!-- CHANGE :: display the likes of this post, if the user is logged in, then show the link to toggle likes, else, just show the count -->
         <br>
             <!-- study about the data attribute -->
-        <small>
+        <small style="color: yellow ;">
             <% if (locals.user){ %>
                 <a class="toggle-like-button" data-likes="<%= post.likes.length %>" href="/likes/toggle/?id=<%=post._id%>&type=Post">
-                        <%= post.likes.length %> Likes
+                        <%= post.likes.length %>  <i style="color: whitesmoke;" class="far fa-heart"></i>
                 </a>
             <% }else{ %>
-                <%= post.likes.length %> Likes
+                <%= post.likes.length %>  <i style="color: whitesmoke;" class="far fa-heart"></i>
             <% } %>
         </small>
 
@@ -37,7 +39,7 @@
         <% } %>
 
         <div class="post-comments-list">
-            <ul id="post-comments-<%= post._id %>">
+            <ul style="color: cornsilk;" id="post-comments-<%= post._id %>">
                 <% for (comment of post.comments){%>
 
                     <%- include('_comment') -%>
