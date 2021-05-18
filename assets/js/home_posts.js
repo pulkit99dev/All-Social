@@ -43,7 +43,7 @@
         // CHANGE :: show the count of zero likes on this post
         return $(`
             <li id="post-${ post._id }" 
-            style="color:greenyellow; font-size: larger; font-weight: bolder;">
+            style="color:greenyellow; font-size: larger; font-weight: bolder; border: 3px solid white; margin: 20px; padding: 30px;">
                     <p>
                         
 

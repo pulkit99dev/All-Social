@@ -1,7 +1,8 @@
 <li id="comment-<%= comment._id %>">
     <p>
         
-        <%= comment.content %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <% if (locals.user && locals.user.id == comment.user.id){ %>
+        <%= comment.content %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <% if (locals.user && locals.user.id == comment.user.id){ %>
             <small>
                 <a class="delete-comment-button" href="/comments/destroy/<%= comment.id %>"><i style="color: whitesmoke;" class="far fa-trash-alt"></i></a>
             </small>
